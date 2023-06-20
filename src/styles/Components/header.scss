@@ -7,10 +7,22 @@
   background-size: cover;
   &__container {
     padding: 2rem;
+    gap: 5rem;
+  }
+  &__top {
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__content {
+    justify-content: right;
   }
   min-height: 500px;
 }
 
 .header__logo {
   color: black;
+}
+.logo {
+  width: 40px;
+  height: 40px;
 }
