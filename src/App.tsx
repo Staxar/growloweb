@@ -1,24 +1,22 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+
+import "./App.css";
+import "./styles/index.scss";
+import { Header } from "./Components/Header";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="outerContainer">
+      <Header />
+      <a href="https://www.freepik.com/free-vector/farmer-peasant-illustration-man-with-beard-spade-farmland_3264816.htm#page=2&query=farmer%20cartoon&position=31&from_view=keyword&track=ais">
+        Image by vectorpouch
+      </a>{" "}
+      on Freepik
+      <br></br>
+      <a href="https://www.freepik.com/free-vector/smart-ecological-farming-cartoon-illustration_5901229.htm#query=farm&position=3&from_view=author">
+        Image by vectorpouch
+      </a>{" "}
+      on Freepik
     </div>
   );
 }
