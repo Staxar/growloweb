@@ -1,19 +1,18 @@
 import React from "react";
-
-import "./App.css";
-import "./styles/index.scss";
 import { Header } from "./Components/Header";
+import { Content } from "./Components/Content";
 
 function App() {
   return (
-    <div className="outerContainer">
+    <div className="w-full h-full p-14 m-auto">
       <Header />
-      <a href="https://www.freepik.com/free-vector/farmer-peasant-illustration-man-with-beard-spade-farmland_3264816.htm#page=2&query=farmer%20cartoon&position=31&from_view=keyword&track=ais">
+      <Content />
+      <a href="https://www.freepik.com/free-vector/smart-ecological-farming-cartoon-illustration_5901229.htm#query=farm&position=3&from_view=author">
         Image by vectorpouch
       </a>{" "}
       on Freepik
-      <br></br>
-      <a href="https://www.freepik.com/free-vector/smart-ecological-farming-cartoon-illustration_5901229.htm#query=farm&position=3&from_view=author">
+      <br />
+      <a href="https://www.freepik.com/free-vector/investment-tree-growth-illustration_3090797.htm#query=farm&position=41&from_view=author">
         Image by vectorpouch
       </a>{" "}
       on Freepik
