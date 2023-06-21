@@ -1,11 +1,10 @@
 import React from "react";
-import "./styles/index.scss";
 import { Header } from "./Components/Header";
 import { Content } from "./Components/Content";
 
 function App() {
   return (
-    <div className="outerContainer">
+    <div className="w-full h-full p-14 m-auto">
       <Header />
       <Content />
       <a href="https://www.freepik.com/free-vector/smart-ecological-farming-cartoon-illustration_5901229.htm#query=farm&position=3&from_view=author">
