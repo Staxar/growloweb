@@ -15,7 +15,10 @@ export const Header = () => {
           </div>
         </header>
         <div className="flex header__content">
-          <h1>Stop wasting food and start making money</h1>
+          <div className="">
+            <h1>Stop wasting food and start making money</h1>
+            <h3>Help the world change</h3>
+          </div>
         </div>
       </div>
     </section>
